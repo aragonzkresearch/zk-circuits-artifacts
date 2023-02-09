@@ -1,0 +1,17 @@
+node_modules
+package-lock.json
+build
+release
+circuit_js
+circuit_cpp
+powersoftau
+*.r1cs
+*.sym
+*.circom
+*.log
+proof.json
+public.json
+witness.wtns
+
+ovote
+oav

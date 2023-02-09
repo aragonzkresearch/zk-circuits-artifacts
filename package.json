@@ -1,0 +1,14 @@
+{
+  "name": "zk-circuits-artifacts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "postinstall": "cd node_modules && git clone https://github.com/aragonzkresearch/ovote.git && rm -rf .git && cd ovote/circuits && npm install",
+    "test": "echo \"undefined\""
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "snarkjs": "0.4.10"
+  }
+}
